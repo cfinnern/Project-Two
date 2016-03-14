@@ -62,6 +62,37 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover;
 }
+ul {
+   position: fixed;
+	width: 100%;
+	padding: .8%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+    background-color: #566D7E;
+	
+}
+
+li a {
+    display: block;
+    color: #E5E4E2;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #7D6655;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
 img {
   width: 50%;
   align-items: right;
@@ -86,6 +117,7 @@ font-size: 300%;
 color: black;
 text-align: center;
 font-family: 'Signika', sans-serif;
+padding: 1.5%;
 }
 
 h2{ background-color: rgba(213,213,213,0.85);
